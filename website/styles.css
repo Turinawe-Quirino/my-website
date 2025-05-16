@@ -176,6 +176,16 @@ nav ul li a.active {
     justify-content: space-between;
 }
 
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(8, 2, 2, 0.774)), url("icons/backgnd-img.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .hero-content {
     flex: 1;
     padding-right: 2rem;
